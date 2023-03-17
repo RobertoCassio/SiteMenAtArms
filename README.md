@@ -6,6 +6,11 @@ Este projeto começou como um simples site HTML/CSS, que realizando enquanto faz
 O projeto anteriormente possuia inúmeros erros e ideias que não consegui implementar como gostaria.<br>
 Agora, com mais experiência, estou trabalhando na correção desses problemas e adicionando as funcionalidades de JavaScript e CSS que o site deveria ter desde o começo.
 
+## Tecnologias Utilizadas:
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
 ## O que foi adicionado:
 ###Até o momento, algumas das funcionalidades que foram adicionadas ao projeto incluem:
 
