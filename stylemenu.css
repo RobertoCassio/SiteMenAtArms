@@ -9,7 +9,7 @@
 	font-family:'Roboto', sans-serif;
 	}
 
-ul{
+.menu ul{
 	width:30%;
 	height:44px;
 	display: flex;
@@ -18,7 +18,7 @@ ul{
 	
 	
 }
-ul li{
+.menu li{
 	width:30%;
 	height:90%;
 	text-align: center;
@@ -26,7 +26,7 @@ ul li{
 	font-size:13px;
 	padding-top: 10%;
 }
-ul li:hover{
+.menu li:hover{
 	 background-color:#d44033;
 	 transition:all 0.3s;
 	 cursor:pointer;
@@ -61,4 +61,120 @@ input{
 	justify-content: flex-start;
 	width: 23%;
 	margin: 0 0 0 10vw ;
+}
+/* Cart */
+.cart{
+	display:inline-block;
+	margin-top:0.5%;
+	margin-right: 3%;
+	max-height:70%;
+	text-align: center;
+	align-items: center;
+	background-color: #ccc;
+	border-radius: 90%;
+}
+.cart:hover{
+	cursor: pointer;
+	background-color: #d44033;
+}
+.cart-icon {
+	display: inline-block;
+	margin: 2px 0 0 1px;
+	width: 40px;
+	height: 40px;
+	background: url('imagens/carrinho.png') no-repeat center center;
+	background-size: contain;
+	cursor: pointer;
+  }
+  
+  .cart-dropdown {
+	display: none;
+	position: absolute;
+	width: 40vw;
+	height: 9	0svh;
+	right: 0;
+	background:#343434;
+	border-radius: 3%;
+	padding:3%;
+	
+  }
+.cart-dropdown.show{
+	display:block;
+  }
+.cart-items{
+	width: 100%;
+	border-collapse: collapse;
+	display:inline-block;
+}
+.table-head-item{
+	text-align: center;
+	border-bottom: 1px solid #E9ECEF ;
+	padding-bottom: 6px;
+	text-transform: uppercase;
+}
+.sec, .third{
+	width:30%;
+}
+.cart-product td{
+	padding: 8px 0;
+}
+.cart-id{
+	display:flex;
+	align-items: center;
+}
+.cart-title{
+	margin-left:5%;
+}
+.cart-count{
+	width:40%;
+	border-radius:5%;
+	text-align: center;
+}
+.remove-button{
+	margin-left: 12px;
+	background-color:#E9ECEF;
+	color:#495057;
+	font-size: 1.1rem;;
+	padding:4.5% 0;
+	border: 0;
+	border-radius:10%;
+}
+.remove-button:hover{
+	background-color: #d44033;
+	cursor:pointer;
+
+}
+.cart-price{
+	text-align: center;
+}
+ /*---------------------------------------------------*/ 
+  .cart-total {
+	border-top:1px solid #E9ECEF;
+	text-align: end;
+	color: #495057;
+	padding: 1%;
+	font-size: 1.3rem;
+  }
+  .cart-total strong{
+	margin-right:5%;
+  }
+.cart-checkout{
+	display:flex;	
+	margin: 0 auto;
+	background-color: #d44033;
+	color: #E9ECEF;
+	border:0;
+	border-radius: 5%;
+	padding:3%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.cart-checkout:hover{
+	filter: brightness(0.8);
+	transition:ease-in-out 0.5s;
+	cursor: pointer;
+}
+
+.cart-items img{
+	max-width: 80%;
 }

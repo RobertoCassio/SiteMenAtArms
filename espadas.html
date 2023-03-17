@@ -25,46 +25,87 @@
 			<input type="text" class="textsearch" />
 			<input type="submit" class="search" value="GO" />
 		</div>
+		<!-- Cart -->
+		<div class="cart"> <span class="cart-icon"></span>
+			<div class="cart-dropdown">
+				<table class="cart-items">
+					<thead>
+						<th class="table-head-item first">Item</th>
+						<th class="table-head-item sec">Preço</th>
+						<th class="table-head-item third">Quantidade</th>
+					</thead>
+					<tbody>
+						<tr class="cart-product">
+							<td class="cart-id"><img class="cart-img" src="itens/escudo.jpg"> <strong class ="cart-title">Item 1</strong></td>
+							<td class="cart-price">100</td>
+							<td><input class="cart-count" type="number"><button class="remove-button">Remover</button></td>
+						</tr>
+						<tr class="cart-product">
+							<td class="cart-id"><img class="cart-img" src="itens/escudo.jpg"> <strong class ="cart-title">Item 2</strong></td>
+							<td class="cart-price">100</td>
+							<td><input class="cart-count" type="number"><button class="remove-button">Remover</button></td>
+						</tr>
+						<tr class="cart-product">
+							<td class="cart-id"><img class="cart-img" src="itens/escudo.jpg"> <strong class ="cart-title">Item 3</strong></td>
+							<td class="cart-price">100</td>
+							<td><input class="cart-count" type="number"><button class="remove-button">Remover</button></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3" class="cart-total">
+							<strong>Total </strong>
+							<span>400</span>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+				<button class="cart-checkout">Finalizar compra</button>
+			</div>
+		</div>
 	</div>
+	</div>
+
+	<!-- Fim do Menu -->
 	<div class="main-content-item">
 		<div class="img-item">
 			<a target="_blank"><img src="itens/sora.jpg" alt="KeyBlade"></a>
-			<div class="desc">KeyBlade<br>R$1300,00 </div>
+			<div class="desc">KeyBlade<br></div>R$ <span class="price">1300,00 </span>
 		</div>
 
 		<div class="img-item">
-			<a target="_blank"><img src="itens/sephiroth.jpg" alt="Sephiroth Masamune"></a>
-			<div class="desc">Muramasa<br>R$1730,00</div>
+			<a target="_blank"><img src="itens/sephiroth.jpg" alt="Masamune"></a>
+			<div class="desc">Masamune<br></div>R$ <span class="price">1730,00</span>
 		</div>
 
 
 		<div class="img-item">
 			<a target="_blank"><img src="itens/leona.jpg" alt="Espada Zenith"></a>
-			<div class="desc">Zenith<br>R$3200,00</div>
+			<div class="desc">Zenith<br></div>R$ <span class="price">3200,00</span>
 		</div>
 
 		<div class="img-item">
 			<a target="_blank"><img src="itens/ichigo.jpg" alt="Espada Zangetsu"></a>
-			<div class="desc">Zangetsu<br>R$3200,00</div>
+			<div class="desc">Zangetsu<br></div>R$ <span class="price">3200,00</span>
 		</div>
 		<div class="img-item">
 			<a target="_blank"><img src="itens/cloud.jpg" alt="Buster Sword"></a>
-			<div class="desc">Buster S<br>R$4000,00</div>
+			<div class="desc">Buster S<br></div>R$ <span class="price">4000,00</span>
 		</div>
 
 		<div class="img-item">
 			<a target="_blank"><img src="itens/link.jpg" alt="Link Master Sword"></a>
-			<div class="desc">Master S<br>R$1300,00</div>
+			<div class="desc">Master S<br></div>R$ <span class="price">1300,00</span>
 		</div>
 
 		<div class="img-item">
 			<a target="_blank"><img src="itens/kirito.jpg" alt="Espada Elucidator"></a>
-			<div class="desc">Elucidator<br>R$1300,00</div>
+			<div class="desc">Elucidator<br></div>R$ <span class="price">1300,00</span>
 		</div>
 
 		<div class="img-item">
 			<a target="_blank"><img src="itens/minecraft.jpg" alt="Espada Minecraft"></a>
-			<div class="desc">Esp. Minecraft<br>R$900,00</div>
+			<div class="desc">Esp. Minecraft<br></div>R$ <span class="price">900,00</span>
 		</div>
 	</div>
 	</div>
@@ -84,7 +125,7 @@
 		</div>
 		</b>
 	</div>
-
+	<script src="loja.js"></script>
 </body>
 
 </html>
