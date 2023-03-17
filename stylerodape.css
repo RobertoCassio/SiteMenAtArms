@@ -1,0 +1,29 @@
+﻿*{padding:0px; margin: 0px;}
+.rodape{
+	display: flex;
+	justify-content: space-around;
+	height:20%;
+	background-color:#212529;
+	margin-top:5px;
+	font-family:'Roboto', sans-serif;
+		
+}
+.rodape a:hover{
+	color:#d44033;
+}
+.rodape1{
+	margin: 10px auto;
+
+}
+.rodape2{
+	margin: 10px auto;
+
+	
+}
+.fontebranca{
+	color:white;
+}
+.fontbranca{
+	color:white;
+	text-align:center;
+}
